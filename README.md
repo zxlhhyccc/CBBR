@@ -52,7 +52,7 @@ yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubu
 
 **第二步：**
 ```
-wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/xratzh/CBBR/master/C72.sh && bash C72.sh && bash C72.sh
+wget --no-check-certificate -O C72.sh https://raw.githubusercontent.com/zxlhhyccc/CBBR/master/C72.sh && bash C72.sh
 ```
 
 ---
