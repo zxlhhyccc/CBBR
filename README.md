@@ -43,7 +43,7 @@ wget --no-check-certificate -O D4.sh https://raw.githubusercontent.com/xratzh/CB
 ```
 
 ---
-### CentOS7开启魔改BBR
+### CentOS7开启魔改BBR(该系统内核修改为4.19.5-1版本，测试通过)
 **第一步：**
 ```
 yum install -y wget && wget --no-check-certificate -O C71.sh https://raw.githubusercontent.com/xratzh/CBBR/master/C71.sh && bash C71.sh
