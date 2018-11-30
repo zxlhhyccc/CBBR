@@ -13,11 +13,11 @@ echo "或者ctrl+c退出"
 read CBBR
 if [ $CBBR = 1 ]
 then
-wget -O ./tcp_bbr_powered.c https://raw.githubusercontent.com/KozakaiAya/TCP_BBR/master/v4.19_rc/tcp_tsunami.c
+wget -O ./tcp_bbr_powered.c https://raw.githubusercontent.com/zxlhhyccc/TCP_BBR/master/v4.19_rc/tcp_nanqinlang.c
 sed -i "s/tsunami/bbr_powered/g" tcp_bbr_powered.c
 elif [ $CBBR = 2 ]
 then
-wget -O ./tcp_bbr_powered.c https://raw.githubusercontent.com/KozakaiAya/TCP_BBR/master/v4.19_rc/tcp_nanqinlang.c
+wget -O ./tcp_bbr_powered.c https://raw.githubusercontent.com/zxlhhyccc/TCP_BBR/master/v4.19_rc/tcp_nanqinlang.c
 sed -i "s/nanqinlang/bbr_powered/g" tcp_bbr_powered.c
 else
     echo "错误！请输入正确编号再重试"
