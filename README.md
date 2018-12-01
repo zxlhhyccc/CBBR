@@ -76,3 +76,4 @@ wget --no-check-certificate -O C62.sh https://raw.githubusercontent.com/xratzh/C
 - 由于这个我找到的CentOS/Ubuntu历史内核的镜像站的网速时快时慢，所以自己下载了上传到GitHub，这样能保持一个较为稳定的速度。原来的内核地址仍然在脚本里面，只是被添加注释了，如果你不信任我上传的内核，可以自己取消注释使用镜像站的内核下载方式。   
 - 部分内容借鉴了[Vicer大佬](https://moeclub.org/2017/06/24/278/)和[Teddysun大佬](https://github.com/teddysun)的脚本，感谢hostloc的yankee大佬和[nanqinlang](https://github.com/nanqinlang)大佬的魔改优化。
 
+开启bbr和魔改BBR查看命令：sysctl net.ipv4.tcp_available_congestion_control
